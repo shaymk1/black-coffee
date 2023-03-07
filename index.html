@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Coffee Shop</title>
+	</head>
+	<body>
+		<!-------------------------------------!>
+		<!-- -----header----- -->
+		<header class="header" id="header">
+			<div class="header__border">
+				<nav class="nav container">
+					<a href="/home" class="nav__logo" alt="logo">
+						<img src="img/logo.png" alt="logo" srcset="" />
+						Coffetto
+					</a>
+					<div class="nav__menu">
+						<ul class="nav__list">
+							<li class="nav__item">
+								<a href="#home" class="nav__link active-link" alt="home">
+									<i class="ri-home-2-line"></i>
+									<span>Home</span>
+								</a>
+							</li>
+
+							<li class="nav__item">
+								<a href="#about" class="nav__link" alt="about">
+									<i class="ri-award-line"></i>
+									<span>About</span>
+								</a>
+							</li>
+
+							<li class="nav__item">
+								<a href="#steps" class="nav__link" alt="steps">
+									<i class="ri-compass-3-fill"></i>
+									<span>Steps</span>
+								</a>
+							</li>
+
+							<li class="nav__item">
+								<a href="#testimonials" class="nav__link">
+									<i class="ri-message-3-fill" alt="Testimonials"></i>
+									<span>Testimonials</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-------------------------------------!>
+		<!-- -----main----- -->
+		<main class="main">
+			<!-------------------------------------!>
+			<!-- -----home----- -->
+			<section class="home" id="home">
+				<div class="home__container container grid">
+					<div class="home__data">
+						<h3 class="home__subtitle">EXCEPTIONAL QUALITY</h3>
+						<h1 class="home__title">
+							It's time for a <br />
+							good coffee
+							<img
+								src="img/home-coffee-title.png"
+								alt="coffee beans"
+								srcset=""
+							/>
+						</h1>
+						<p class="home__discription">
+							Each select coffee bean reflects our commitment to Peruvian coffee
+							growers, who bring the best select coffee to your table.
+						</p>
+						<a href="" class="button" alt="a button for get started with coffee"
+							>Get Started With Coffee <i class="ri-arrow-right-s-line"></i
+						></a>
+					</div>
+					<img
+						src="img/home-coffee.png"
+						alt="coffee in a bottle"
+						srcset=""
+						class="home__image"
+					/>
+				</div>
+			</section>
+			<!-------------------------------------!>
+			<!-- -----products----- -->
+			<section class="products" id="products">
+				<div class="products__bg section">
+					<div class="products__container container grid">
+						<div class="products__data">
+							<a href="#about" class="products__button">
+								Scroll Down <i class="ri-arrow-down-line"></i
+							></a>
+							<p class="products__description">
+								We strive to form deep partnerships with farmers from all over
+								the world to create perspective together and form healthy
+								working relationships built on trust and respect.
+							</p>
+						</div>
+						<div class="products__content">
+							<!-- product-1 -->
+							<article class="products__card">
+								<img
+									src="img/product-coffee-1.png"
+									alt="coffee beans"
+									srcset=""
+									class="products__img"
+								/>
+								<h3 class="products__name">Classic Coffee</h3>
+								<span class="products__price">$17.90</span>
+							</article>
+
+							<!-- product-2 -->
+							<article class="products__card">
+								<img
+									src="img/product-coffee-2.png"
+									alt="coffee beans"
+									srcset=""
+									class="products__img"
+								/>
+								<h3 class="products__name">Black coffee</h3>
+								<span class="products__price">$24.99</span>
+							</article>
+
+							<!-- product-3 -->
+							<article class="products__card">
+								<img
+									src="img/product-coffee-3.png"
+									alt="coffee beans"
+									srcset=""
+									class="products__img"
+								/>
+								<h3 class="products__name">Strong coffee</h3>
+								<span class="products__price">$32.90</span>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-------------------------------------!>
+			<!-- -----about----- -->
+			<section class="about" id="about">
+				<div class="about__bg section">
+					<div class="about__container container grid">
+						<div class="about__data">
+							<h2 class="section__title">Our History</h2>
+							<p class="about__description">
+								We make and grow the best coffee in Peru, accompanying families
+								since 1930, with professional workers who harvest, collect and
+								select the coffee with quality work, thus providing exquisite
+								coffee to enjoy together as a family.
+							</p>
+						</div>
+						<img
+							src="img/about-coffee.png"
+							alt="about image of coffee beans"
+							class="about__img"
+						/>
+					</div>
+				</div>
+			</section>
+			<!-------------------------------------!>
+			<!-- -----steps----- -->
+			<section class="steps" id="steps">
+				<div class="steps__bg section">
+					<h2 class="section__title">Steps of manufacturing our products</h2>
+
+					<div class="steps__container container grid">
+						<img
+							src="img/coffee-beans-bg.png"
+							alt="loose coffee beans scattered"
+							class="steps__bg-img"
+						/>
+						<div class="steps__content">
+							<img
+								src="img/steps-curve-line.svg"
+								alt="dotted curved line"
+								class="steps__border"
+							/>
+							<!-- card-1 -->
+							<div class="steps__card">
+								<div class="steps__circle">
+									<div class="steps__subcircle">01</div>
+
+									<img
+										src="img/steps-green-coffee.png"
+										alt="green coffee beans"
+										class="steps__img"
+									/>
+								</div>
+								<p class="steps__description">
+									Harvest occurs annually when the coffee beans reach maturity
+									and are collected for processing.
+								</p>
+							</div>
+
+							<!-- card-2 -->
+							<div class="steps__card steps__card-move">
+								<div class="steps__circle">
+									<div class="steps__subcircle">02</div>
+
+									<img
+										src="img/steps-coffee-beans.png"
+										alt="brown coffee beans"
+										class="steps__img"
+									/>
+								</div>
+								<p class="steps__description">
+									The beans are dried using a wet or dry technique, depending on
+									the taste we want to obtain.
+								</p>
+							</div>
+
+							<!-- card-3 -->
+							<div class="steps__card">
+								<div class="steps__circle">
+									<div class="steps__subcircle">03</div>
+
+									<img
+										src="img/steps-ground-coffee.png"
+										alt="ground coffee "
+										class="steps__img"
+									/>
+								</div>
+								<p class="steps__description">
+									The coffee is roasted and acquires its flavor by processing
+									the grain in ovens.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-------------------------------------!>
+			<!---------- testimonials------ -->
+			<section class="testimonials" id="testimonials">
+				<div class="testimonials__bg section">
+					<div class="testimonials__container container grid">
+						<div class="testimonials__data">
+							<h2 class="section__title">
+								Coffee is the best drink in the morning, it keeps you focused.
+							</h2>
+							<span class="testimonials__name"> Mary Joe </span>
+						</div>
+						<img
+							src="img/testimonial-coffee.png"
+							alt="a cup of coffee on a table with raw coffee beans thrown around it"
+							class="testimonials__img"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-------------------------------------!>
+			<!---------- footer------ -->
+		<footer class="footer">
+			<div class="footer__bg">
+				<img
+							src="img/coffee-beans-bg.png"
+							alt="loose coffee beans scattered falling"
+							class="footer__bg-img"
+						/>
+				<div class="footer__container container grid">
+					<div class="footer__data grid">
+						<div>
+							<a href="#home" class="footer__logo" alt="footer logo">
+								<img src="img/logo.png" alt="logo" srcset="" />
+								Coffetto
+							</a>
+							<h3 class="footer__title">Sign up for our newsletter</h3>
+						</div>
+
+						<form action="" class="footer__form grid">
+							<label for="email" class="footer__label">Enter Your Email</label>
+							<input type="email" class="footer__input" id="email" />
+							<button
+								class="button footer__button"
+								type="submit"
+								alt="subscribe button"
+							>
+								Subscribe <i class="ri-arrow-right-s-line"></i>
+							</button>
+							<p class="footer__description">
+								We care about your data. Read our
+								<a href="#home" class="footer__privacy" alt="footer privacy">
+									Privacy Policy
+								</a>
+							</p>
+						</form>
+					</div>
+					<div class="footer__content grid">
+						<div class="footer__social">
+							<a
+								href="https://www.facebook.com/"
+								class="footer__social-link"
+								alt="facebook link"
+								target="_blank"
+							>
+								<i class="ri-facebook-circle-line"></i>
+							</a>
+							<a
+								href="https://www.instagram.com/"
+								class="footer__social-link"
+								alt="instagram link"
+								target="_blank"
+							>
+								<i class="ri-instagram-line"></i>
+							</a>
+							<a
+								href="https://twitter.com/"
+								class="footer__social-link"
+								alt="twitter link"
+								target="_blank"
+							>
+								<i class="ri-twitter-line"></i>
+							</a>
+						</div>
+						<small class="footer__copy">&#love; Copyright Shay Kekae. All rights reserved</small>
+					</div>
+				</div>
+			</div>
+		</footer>
+				<!-------------------------------------!>
+			<!---------- scroll-up------ -->
+			<a 
+			    href="#"		
+				class="scrollup" id="scroll-up"
+				alt="twitter link"
+				target="_blank"
+			>
+			<i class="ri-arrow-up-line"></i>
+			</a>
+		<script src="js/main.js"></script>
+		<script src="js/scrollreveal.min.js"></script>
+	</body>
+</html>
