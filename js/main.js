@@ -40,3 +40,16 @@ const scrollActive = () => {
 };
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const scrollingReveal = ScrollReveal({
+	origin: "top",
+	distance: "60px",
+	duration: 2500,
+	delay: 400,
+	//reset: true, //animation repeat
+});
+
+scrollingReveal.reveal(`.home__data, .products__data, .steps__content, .footer__container`);
+scrollingReveal.reveal(`.home__img`, { origin: "bottom" });
+scrollingReveal.reveal(`.products__card`, { interval: 100 });
+rollingReveal.reveal(`.about__img, testimonials__img`, { origin: "left" });
+rollingReveal.reveal(`.about__data, testimonials__img`, { origin: "right" });
