@@ -40,7 +40,7 @@ const scrollActive = () => {
 };
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-const scrollingReveal = ScrollReveal({
+const sr = ScrollReveal({
 	origin: "top",
 	distance: "60px",
 	duration: 2500,
@@ -48,8 +48,8 @@ const scrollingReveal = ScrollReveal({
 	//reset: true, //animation repeat
 });
 
-scrollingReveal.reveal(`.home__data, .products__data, .steps__content, .footer__container`);
-scrollingReveal.reveal(`.home__img`, { origin: "bottom" });
-scrollingReveal.reveal(`.products__card`, { interval: 100 });
-rollingReveal.reveal(`.about__img, testimonials__img`, { origin: "left" });
-rollingReveal.reveal(`.about__data, testimonials__img`, { origin: "right" });
+sr.reveal(`.home__data, .products__data, .steps__content, .footer__container`);
+sr.reveal(`.home__img`, { origin: "bottom" });
+sr.reveal(`.products__card`, { interval: 100 });
+sr.reveal(`.about__img, testimonials__img`, { origin: "left" });
+sr.reveal(`.about__data, testimonials__img`, { origin: "right" });
